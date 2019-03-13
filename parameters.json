@@ -1,0 +1,114 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "chubbsvcfab"
+        },
+        "clusterLocation": {
+            "value": "eastus"
+        },
+        "computeLocation": {
+            "value": "eastus"
+        },
+        "adminUserName": {
+            "value": "krishna"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "nicName": {
+            "value": "NIC-chubbsvcfab"
+        },
+        "publicIPAddressName": {
+            "value": "chubbsvcfab-PubIP"
+        },
+        "dnsName": {
+            "value": "chubbsvcfab"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-chubbsvcfab"
+        },
+        "lbName": {
+            "value": "LB-chubbsvcfab"
+        },
+        "lbIPName": {
+            "value": "LBIP-chubbsvcfab"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdgchubbsvcfab3876"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogschubbsvcfab3189"
+        },
+        "sourceVaultValue": {
+            "value": "/subscriptions/7e09b613-973f-408f-82b0-be727b311aee/resourcegroups/keyvault/providers/Microsoft.KeyVault/vaults/chubbKeyvault"
+        },
+        "certificateUrlValue": {
+            "value": "https://chubbkeyvault.vault.azure.net/secrets/chubbapicorenet/47dd2d5127cc4d94b7c98bf21b00f560"
+        },
+        "certificateThumbprint": {
+            "value": "A28896DDC1A5982AEB47F6B4678CAFA0FC7232B4"
+        },
+        "vmImageSku": {
+            "value": "2016-Datacenter-with-Containers"
+        },
+        "vmImageOffer": {
+            "value": "WindowsServer"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt1ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt1ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt1applicationStartPort": {
+            "value": 20000
+        },
+        "nt1applicationEndPort": {
+            "value": 30000
+        },
+        "nt1fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt1fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt2ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt2ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt2applicationStartPort": {
+            "value": 20000
+        },
+        "nt2applicationEndPort": {
+            "value": 30000
+        },
+        "nt2fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt2fabricHttpGatewayPort": {
+            "value": 19080
+        }
+    }
+}
